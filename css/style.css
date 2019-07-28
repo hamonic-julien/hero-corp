@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(https://fonts.googleapis.com/css?family=Oswald);
+}
+
+
+body {
+    background-color: rgb(211, 211, 211);
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+#wrapper {
+    text-align: center;
+    width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid black;
+}
+
+header {
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 3em;
+    border-bottom: 2px solid rgb(139, 0, 0);
+    border-top: 2px solid rgb(139, 0, 0);
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.bloc {
+    font-size: .3em;
+    background-color: black;
+    color: white;
+    padding: 7px 10px;
+
+}
+
+#presentation,
+#synopsis {
+    background-color: #EEE;
+    margin: 0 8%;
+    padding: 20px;
+}
+
+
+.rouge {
+    color: rgb(171, 71, 71);
+}
+
+.hc-logo {
+    width: 100px;
+    margin: 15px 0;
+}
+
+strong {
+    font-weight: bold;
+
+}
+
+aside {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    margin: 20px 0 -40px 0;
+}
+
+main aside p {
+    text-align: center;
+    font-style: italic;
+    font-size: .8em;
+}
+
+footer {
+    background-color: #EEE;
+    margin: 15px;
+    padding: 20px 0 75px 0;
+    text-align: center;
+}
+
+li {
+
+    background-color: #EEE;
+    border-radius: 10px;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-right: 60px;
+    padding: 5px 0;
+}
+
+a {
+    color: rgb(162, 57, 57);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(139, 0, 0);
+    font-weight: bolder;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+.blocs-images {
+    border: 1px solid #D2D2D2;
+    width: 240px;
+    margin: auto;
+}
+
+.blocs-images p {
+    text-align: center;
+    padding: 5px;
+}
+
+main p {
+    text-align: left;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Oswald';
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-family: 'Oswald';
+    color: rgb(139, 0, 0);
+    font-size: 1.3em;
+}
+
+.groupe,
+.groupe-costumes,
+.hc-logo2 {
+    width: 160px;
+    margin: 20px 20px 0 20px;
+}
